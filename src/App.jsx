@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { Home } from "./components/Home"
 import { Order } from "./components/Order"
 import Menu from "./components/Menu"
-import { Modal } from "@material-ui/core";
+// import { Modal } from "@material-ui/core";
 
 
 const router = createBrowserRouter([
@@ -14,10 +14,10 @@ const router = createBrowserRouter([
     path: "/order",
     element: <Order/>,
   },
-  {
-    path: "/modal",
-    element: <Modal/>,
-  },
+  // {
+  //   path: "/modal",
+  //   element: <Modal/>,
+  // },
   {
     path: "/menu",
     element: <Menu/>,
