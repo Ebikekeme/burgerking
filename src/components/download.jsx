@@ -1,6 +1,6 @@
 import React from "react";
 import phone from "../assets/phone.png";
-import Playstore from "../assets/PlayStore.jpg";
+import Playstore from "../assets/Playstore.jpg";
 import Appstore from "../assets/AppStore.jpg";
 
 export const Download = () => {
